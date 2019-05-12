@@ -3,13 +3,13 @@ import PouchDB from "pouchdb";
 import PouchDBErase from "pouchdb-erase";
 
 export class StoreAsync<K, T> implements IKeyValueStoreAsync<K, T> {
-	private store: PouchDB;
-
-	public constructor(opts: { connection: string }) {
+	public static async new<K, T>(opts: { connection: string }): Promise<StoreAsync<K, T>> {
 		PouchDB.plugin(PouchDBErase);
 
-		this.store = new PouchDB(opts.connection, { auto_compaction: true });
+		return new StoreAsync<K, T>(new PouchDB(opts.connection, { auto_compaction: true }));
 	}
+
+	private constructor(private readonly store: PouchDB) {}
 
 	public async all(): Promise<Array<[K, T]>> {
 		try {
