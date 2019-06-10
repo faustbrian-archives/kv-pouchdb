@@ -6,7 +6,7 @@
 [![Node Engine](https://badgen.now.sh/npm/node/@keeveestore/pouchdb)](https://www.npmjs.com/package/@keeveestore/pouchdb)
 [![Build Status](https://badgen.now.sh/circleci/github/keeveestore/pouchdb)](https://circleci.com/gh/keeveestore/pouchdb)
 [![Codecov](https://badgen.now.sh/codecov/c/github/keeveestore/pouchdb)](https://codecov.io/gh/keeveestore/pouchdb)
-[![License: MPL-2.0](https://badgen.now.sh/badge/license/MPL-2.0/green)](https://mozilla.org/MPL/2.0/)
+[![License: MPL-2.0](https://badgen.now.sh/badge/license/MPL-2.0/green)](https://mozilla.org/MPL/2.0/) [![Greenkeeper badge](https://badges.greenkeeper.io/keeveestore/pouchdb.svg)](https://greenkeeper.io/)
 
 ## Installation
 
