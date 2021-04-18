@@ -26,13 +26,13 @@
 		"dist"
 	],
 	"dependencies": {
-		"@konceiver/kv": "^1.0.0",
+		"@konceiver/kv": "^1.0.1",
 		"pouchdb": "^7.2.2",
 		"pouchdb-erase": "^1.0.2"
 	},
 	"devDependencies": {
 		"@konceiver/kv-test-suite": "^1.0.0",
-		"@konceiver/tease": "^2.0.0"
+		"@konceiver/tease": "^2.0.1"
 	},
 	"types": "dist/index"
 }
